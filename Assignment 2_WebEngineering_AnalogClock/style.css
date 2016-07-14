@@ -1,0 +1,42 @@
+/* This '*' applies on every tag */
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:14px;
+}
+/* applies on analog-clock class */
+.analog{
+    width:140px;
+    height:140px;
+}
+/* applies on id clock-face */
+#clock{
+	/* stroke defines color of a line */
+	stroke:black;
+	/* stroke-width defines thickness of the line */
+    stroke-width:2px;
+    fill:white;
+}
+
+#hour-hand, #minute-hand, #second-hand, #second-tail{
+    stroke:black;
+	/* stroke-linecap defines type of ending to an open path */
+    stroke-linecap:round;
+}
+
+#hour-hand{
+    stroke-width:3px;
+}
+
+#minute-hand{
+    stroke-width:2px;
+}
+
+#second-hand{
+    stroke-width:1px;
+}
+
+.time{
+    text-align:center;
+}

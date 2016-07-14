@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Analog Clock</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<!-- Displays Clock -->
+        <div class="analog">
+            <svg width="140" height="140">
+                <circle id="clock" cx="70" cy="70" r="65" />
+                <line id="hour-hand" x1="70" y1="70" x2="70" y2="38" />
+                <line id="minute-hand" x1="70" y1="70" x2="70" y2="20" />
+                <line id="second-hand" x1="70" y1="70" x2="70" y2="12" />
+                <line id="second-tail" x1="70" y1="70" x2="70" y2="56" />
+                <text x="62" y="18">12</text>
+                <text x="126" y="76">3</text>
+                <text x="66" y="130">6</text>
+                <text x="7" y="76">9</text>
+            </svg>
+	<!-- Displays Time -->
+            <div class="time">
+                <span id="hour">00</span>
+                <span>:</span>
+                <span id="minute">00</span>
+                <span>:</span>
+                <span id="second">00</span>
+                <span id="suffix">--</span>
+            </div>
+        </div>
+    </body>
+</html>
